@@ -1,0 +1,1 @@
+The mvp for the fantasy app will be at the very least an application that is capable of tracking a riders position in a race and tracking assigned riders points for finish position. this project will need an api, user authentication, and a database. I'm going to make an effort to make this project in react redux, unsure how succseful i'll be in react so i may fall back on C#.

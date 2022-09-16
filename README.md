@@ -2,6 +2,8 @@
 ####
 Tuesday 8/30
 *3:00 3:30 email an ama rep on getting an official api to start project, hoping they can help.
+
+*5:30 - 7:00 researching fantasy websites with devtools console.
 #### Friday 9/16
 * 8:40 - 10:10 look at ama motocross/supercross websites that live track riders using devtools console to try to trace api.
 *  10:10 - 10:40 research data scraping.

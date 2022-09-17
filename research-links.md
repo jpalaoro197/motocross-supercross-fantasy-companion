@@ -5,3 +5,6 @@
 
 ### What is web scraping
 #### Web scraping refers to the process of collecting large amounts of data from across the internet. For example, websites that sell plane tickets from many different providers scrape the data from various websites once a request is made. This allows businesses and customers to compare market prices and make more informed decisions.The problem with web scraping is that IP addresses often get blocked from performing an extensive number of searches because they get flagged as spammy. This is where proxy servers can come in. Proxy servers provide alternative IP addresses that help overcome such blocks and allow for the collection of as much data as needed
+
+## possible examples
+* https://github.com/EGWeeks/promotocrossapi/tree/master/api An api on github I dont fully understand, and don think it does live scoring.

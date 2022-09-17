@@ -12,3 +12,5 @@ Tuesday 8/30
 * 8:55pm - 9:10pm sending out another email to the ama trying to get access to live timing and scoring 
 * 9:10pm - 9:40pm quickly finding out I'm not going to be able to use someone elses web scraper $$$$, and I'm going to have to build my own(:
 * 9:50 - 10:30 researching creating my own web scraper.
+* 10:50pm - 11:07pm  researching creating my own web scraper.
+

@@ -11,3 +11,4 @@ Tuesday 8/30
 * 11:10am - 12:30pm more research of data scraping(scraping api, and web scraping) 
 * 8:55pm - 9:10pm sending out another email to the ama trying to get access to live timing and scoring 
 * 9:10pm - 9:40pm quickly finding out I'm not going to be able to use someone elses web scraper $$$$, and I'm going to have to build my own(:
+* 9:50 - 10:30 researching creating my own web scraper.

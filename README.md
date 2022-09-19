@@ -14,3 +14,5 @@ Tuesday 8/30
 * 9:50 - 10:30 researching creating my own web scraper.
 * 10:50pm - 11:07pm  researching creating my own web scraper.
 
+#### Sunday 9/18
+* 10:00pm - 10:54pm start building web scraper.

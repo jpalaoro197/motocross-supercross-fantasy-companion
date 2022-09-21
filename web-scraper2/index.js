@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
 const Standings = require("./scrapers/standings");
-const Email = require("./utils/email");
+//const Email = require("./utils/email");
 
 /**
  * Run Standings

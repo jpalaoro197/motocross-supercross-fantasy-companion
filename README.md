@@ -33,3 +33,6 @@ Tuesday 8/30
 #### friday 9/23
 
 * 10:30am - 11:30am re evauluate the different web scraper approaches, and update the log.
+* 11:30am - 12:15pm found out how to get the fully build api from xhr request from live scoring on american motoctoss's website with url = http://americanmotocrosslive.com/xml/mx/RaceResults.json in postman!!
+* 12:15pm - 1:15pm working on reverse engineering xhr url with postman.
+

@@ -4,27 +4,27 @@ const cheerio = require('cheerio');
  const PORT = 8000;
 const app = express();
 
-const XRay = require("x-ray");
+// const XRay = require("x-ray");
 
- app.get('/', function(req, res){
-  let stream = XRay('http://americanmotocrosslive.com/', 'title').stream()
-  stream.pipe(res)
- })
- console.log(stream)
+//  app.get('/', function(req, res){
+//   let stream = XRay('http://americanmotocrosslive.com/', 'title').stream()
+//   stream.pipe(res)
+//  })
+//  console.log(stream)
 
-// const url1 = 'http://americanmotocrosslive.com/'
-// const url2 = 'https://pulpmxfantasy.com/results/foxraceway2-mx-22/riders'
-// const url3 = 'https://www.supercrosslive.com/results/current/2022/S2205/S1F1PRESS.html'
-// axios(url1).then(response => {
-//   // const results = []
-//   // const html = response.data
-//   // const $ = cheerio.load(html)
-//   // $('.responsive-table', html).each(function(){
-//   //   const text = $(this).find(number).text()
-//   //   results.push({
-//   //     text,
-//   //   })
-//   // })
+const url1 = 'http://americanmotocrosslive.com/'
+const url2 = 'https://pulpmxfantasy.com/results/foxraceway2-mx-22/riders'
+const url3 = 'https://www.supercrosslive.com/results/current/2022/S2205/S1F1PRESS.html'
+axios(url3).then(response => {
+  const results = []
+  const html = response.data
+  const $ = cheerio.load(html)
+  $('.responsive-table', html).each(function(){
+    const texts = $(this).text()
+    results.push({
+      texts,
+    })
+  })
 //   var scraper = require('table-scraper');
 //   scraper
 //     .get('http://americanmotocrosslive.com/')
@@ -41,7 +41,7 @@ const XRay = require("x-ray");
   
 
 //   console.log(tableData)
-// }).catch(err => console.log(err))
+}).catch(err => console.log(err))
 app.listen(PORT, () => console.log(`Express server listening on PORT ${PORT}`))
 
 

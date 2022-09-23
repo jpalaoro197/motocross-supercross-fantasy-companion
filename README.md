@@ -16,3 +16,20 @@ Tuesday 8/30
 
 #### Sunday 9/18
 * 10:00pm - 11:45pm start building web scraper.
+
+#### monday 9/19
+* 12:00pm - 1:00pm more web scraper research
+
+#### tuesday 9/20
+* 12:00pm - 1:00pm more web scraper work/research
+
+#### wednesday 9/21
+* 12:00pm - 1:00pm more web scraper work/research
+* 5:30pm - 7:00pm try working with  webscraping service, but I think I just want to still build my own web scraper so i can work on quicker updates.
+#### thursday 9/22
+* 12:00pm - 1:00pm more web scraper work/research
+* worked on a web scraper specifically for tables.
+
+#### friday 9/23
+
+* 10:30am - 11:30am re evauluate the different web scraper approaches, and update the log.

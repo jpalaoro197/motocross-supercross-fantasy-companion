@@ -1,47 +1,27 @@
-const axios = require('axios');
-const cheerio = require('cheerio');
- const express = require('express');
- const PORT = 8000;
-const app = express();
 
-// const XRay = require("x-ray");
+var axios = require('axios');
 
-//  app.get('/', function(req, res){
-//   let stream = XRay('http://americanmotocrosslive.com/', 'title').stream()
-//   stream.pipe(res)
-//  })
-//  console.log(stream)
+var config = {
+  method: 'get',
+  url: 'http://americanmotocrosslive.com/xml/mx/RaceResults.json',
+  headers: { 
+    'Accept': 'application/json, text/javascript, */*; q=0.01', 
+    'Accept-Language': 'en-US,en;q=0.9', 
+    'Connection': 'keep-alive', 
+    'Cookie': '__utmz=130024863.1661874714.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _fbp=fb.1.1661874714389.450932500; __gads=ID=8b32ae3b617564e6:T=1661874716:S=ALNI_MYB71IhkF441x1CQISK0kHpN9Xu1g; __utma=130024863.330285241.1661874714.1663789519.1663959046.9; __utmc=130024863; __gpi=UID=000008608ac3eb5d:T=1661874716:RT=1663959048:S=ALNI_Mb-GhlTWUl9n4mEQKUnh8w-t1g0Ag; __utmb=130024863.278.9.1663962114926', 
+    'Referer': 'http://americanmotocrosslive.com/', 
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36', 
+    'X-Requested-With': 'XMLHttpRequest'
+  }
+};
 
-const url1 = 'http://americanmotocrosslive.com/'
-const url2 = 'https://pulpmxfantasy.com/results/foxraceway2-mx-22/riders'
-const url3 = 'https://www.supercrosslive.com/results/current/2022/S2205/S1F1PRESS.html'
-axios(url3).then(response => {
-  const results = []
-  const html = response.data
-  const $ = cheerio.load(html)
-  $('.responsive-table', html).each(function(){
-    const texts = $(this).text()
-    results.push({
-      texts,
-    })
-  })
-//   var scraper = require('table-scraper');
-//   scraper
-//     .get('http://americanmotocrosslive.com/')
-//     .then(function(tableData) {
-      
-//          tableData === 
-//           [ 
-//             [ 
-             
-//             ] 
-//           ]
-      
-//     });
-  
+axios(config)
+.then(function (response) {
+  console.log(JSON.stringify(response.data));
+})
+.catch(function (error) {
+  console.log(error);
+});
 
-//   console.log(tableData)
-}).catch(err => console.log(err))
-app.listen(PORT, () => console.log(`Express server listening on PORT ${PORT}`))
 
 

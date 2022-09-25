@@ -36,3 +36,6 @@ Tuesday 8/30
 * 11:30am - 12:15pm found out how to get the fully build api from xhr request from live scoring on american motoctoss's website with url = http://americanmotocrosslive.com/xml/mx/RaceResults.json in postman!!
 * 12:15pm - 1:15pm working on reverse engineering xhr url with postman.
 
+#### saterday 9/24
+
+* 5:30pm - 6:30pm working more on reverse engineering api to a react app.

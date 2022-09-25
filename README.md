@@ -39,3 +39,7 @@ Tuesday 8/30
 #### saterday 9/24
 
 * 5:30pm - 6:30pm working more on reverse engineering api to a react app.
+
+#### sunday 9/25
+
+* 1:50pm - 4:10pm still working on how to properly retrieve the data from postman

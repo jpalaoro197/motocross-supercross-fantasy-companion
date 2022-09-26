@@ -17,8 +17,15 @@ var config = {
 
 axios(config)
 .then(function (response) {
-  
+  function roundInfo (round, location, track) {
+    this.round = round;
+    this.location = location;
+    this.track = track;
+  }
+  let RoundInfo = new roundInfo (response.data.R, response.data.E, response.data.T)
+  let currentMoto = response.data.S
   let results = (response.data.B)
+
   let first = (results[0])
   let second = (results[1])
   let third = (results[2])
@@ -60,7 +67,7 @@ axios(config)
   let thirtyNinth = (results[38])
   let fortieth = (results[39])
 
-  console.log(first.F, second.F);
+  console.log(results, RoundInfo, currentMoto);
 })
 .catch(function (error) {
   console.log(error);

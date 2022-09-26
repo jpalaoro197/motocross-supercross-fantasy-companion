@@ -43,3 +43,4 @@ Tuesday 8/30
 #### sunday 9/25
 
 * 1:50pm - 4:10pm still working on how to properly retrieve the data from postman
+* 4:10pm - 7:00pm add infrastructure to extrack the data into new objects.

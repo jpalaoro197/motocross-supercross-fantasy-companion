@@ -5,7 +5,7 @@ import RaceData from './RaceData';
 function App() {
   return (
     <React.Fragment>
-      < RaceData />
+      < RaceResults />
     </React.Fragment>
   );
 }

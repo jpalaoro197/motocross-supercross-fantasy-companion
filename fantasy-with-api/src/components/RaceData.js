@@ -16,7 +16,7 @@ var config = {
 };
 
 axios(config)
-.then(function (response) {
+.then(function RaceData(response) {
   function roundInfo (round, location, track) {
     this.round = round;
     this.location = location;
@@ -72,3 +72,5 @@ axios(config)
 .catch(function (error) {
   console.log(error);
 });
+
+export default RaceData;

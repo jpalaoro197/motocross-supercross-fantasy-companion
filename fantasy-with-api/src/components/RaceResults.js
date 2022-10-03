@@ -1,4 +1,4 @@
-import RaceData from "./RaceData";
+import RaceData from "../index-copy";
 
 function RaceResults (response){
   return (

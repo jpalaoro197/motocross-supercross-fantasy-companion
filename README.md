@@ -43,10 +43,12 @@ Tuesday 8/30
 #### sunday 9/25
 
 * 1:50pm - 4:10pm still working on how to properly retrieve the data from postman
-* 4:10pm - 7:00pm add infrastructure to extrack the data into new objects.
+* 4:10pm - 7:00pm add infrastructure to extract the data into new objects.
 
 #### wednesday 9/28
 *5:30pm - 7:00pm
 
 #### sunday 10/02
-11:40pm - 3:45pm working on how to properly work with cors.
+* 11:40pm - 3:45pm working on how to properly work with cors.
+* 3:45pm - 5:15pm researching more on cors
+* 5:15pm - 6:30pm still trying to find a way to use the data from the json file from americanmotocrosslive.com in my application without tripping cors

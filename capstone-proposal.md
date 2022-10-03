@@ -17,10 +17,13 @@ react
 axios
 html
 javascript
-firestore
-css
+
 
 If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 ultimately the goal is to build out a full fantasy/companion application, id like to have full authoriation, ability to see other users scores, previous race results.
+
+further exploration technology 
+firestore
+css
 
 large task to take on, but i wouldn't mind making this an actual production application for an opportunity to be both in the tech and moto industry

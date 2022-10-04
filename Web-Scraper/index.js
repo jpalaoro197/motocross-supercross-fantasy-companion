@@ -67,13 +67,13 @@ axios(config)
   let thirtyNinth = (results[38])
   let fortieth = (results[39])
 
-  console.log(results, RoundInfo, currentMoto);
+  console.log(response.data);
 })
 .catch(function (error) {
   console.log(error);
 });
 
-export default RaceData;
+
 
 
 

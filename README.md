@@ -52,3 +52,6 @@ Tuesday 8/30
 * 11:40pm - 3:45pm working on how to properly work with cors.
 * 3:45pm - 5:15pm researching more on cors
 * 5:15pm - 6:30pm still trying to find a way to use the data from the json file from americanmotocrosslive.com in my application without tripping cors
+
+#### monday 10/03
+* 3:00pm - 5:20pm realy dug through the headers from where the api comes from and couldnt figure outhow to break in, now going to just not have live scoring and manually update results at the end of race.

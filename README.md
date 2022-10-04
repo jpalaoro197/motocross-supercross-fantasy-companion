@@ -58,3 +58,5 @@ Tuesday 8/30
 
 #### tuesday 10/04
 8:15am - 9:05am find an example of help queue project with hooks, firebase and authorization and study it.
+
+9:05am - 9:40am reorganizing project, and deleting files that are irrelevant .

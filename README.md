@@ -60,3 +60,7 @@ Tuesday 8/30
 8:15am - 9:05am find an example of help queue project with hooks, firebase and authorization and study it.
 
 9:05am - 9:40am reorganizing project, and deleting files that are irrelevant .
+
+9:40am - 1:50pm build out project to use json data built in instead of through api.
+
+1;50 - 2:25pm format results into a table.

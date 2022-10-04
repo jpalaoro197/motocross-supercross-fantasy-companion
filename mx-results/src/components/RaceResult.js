@@ -1,11 +1,26 @@
 import React from "react";
-import "./App.css";
+import "./../App.css";
 import { raceData } from "./RaceResultsJson"
 
 export const RaceResults = () => {
   return (
     <>
-      <div className="raceResults-container">Race Results</div>
+      <div className="raceResults-container">
+    {raceData.map((B, key) => {
+          return (
+            <div key={key}>
+              {B.A +
+                " , " +
+                B.F +
+                " ," +
+                B.V +
+                ", " +
+                B.T}
+            </div>
+          );
+        })}
+      </div>
     </>
   );
-};
+}
+export default RaceResults

@@ -1,6 +1,6 @@
 import React from 'react';
 import './../App.css';
-import RaceResults from './RaceResults';
+import RaceResults from './RaceResult';
 
 function App() {
   return (

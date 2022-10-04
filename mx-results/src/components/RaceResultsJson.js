@@ -1,4 +1,5 @@
-let data = {
+export const raceData =[
+{
   A: 3,
   R: 17,
   S: '450 Class Moto #2 - 25 Min. + 2 Laps',
@@ -1179,3 +1180,4 @@ let data = {
     { SN: 'S4', ST: '--.---', MST: 0, MBY: '' }
   ]
 }
+]

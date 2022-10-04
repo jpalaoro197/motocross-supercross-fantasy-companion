@@ -2,7 +2,10 @@ import React from "react";
 import "./../App.css";
 import { raceData } from "./RaceResultsJson"
 
-export const RaceResults = () => {
+
+
+
+const RaceResults = () => {
   return (
     <>
       <div className="raceResults-container">
@@ -10,7 +13,7 @@ export const RaceResults = () => {
           return (
             <div key={key}>
               {B.A +
-                " , " +
+                ".  " +
                 B.F +
                 " ," +
                 B.V +

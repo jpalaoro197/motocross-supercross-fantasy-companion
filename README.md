@@ -55,3 +55,6 @@ Tuesday 8/30
 
 #### monday 10/03
 * 3:00pm - 5:20pm realy dug through the headers from where the api comes from and couldnt figure outhow to break in, now going to just not have live scoring and manually update results at the end of race.
+
+#### tuesday 10/04
+8:15am - 9:05am find an example of help queue project with hooks, firebase and authorization and study it.

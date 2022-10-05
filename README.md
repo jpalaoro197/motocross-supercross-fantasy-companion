@@ -64,3 +64,6 @@ Tuesday 8/30
 9:40am - 1:50pm build out project to use json data built in instead of through api.
 
 1;50 - 2:25pm format results into a table.
+
+#### wednesday  
+* 8:45am - 9:30am start building team file in components.

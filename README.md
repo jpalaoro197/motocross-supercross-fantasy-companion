@@ -67,3 +67,4 @@ Tuesday 8/30
 
 #### wednesday  
 * 8:45am - 9:30am start building team file in components.
+* 9:30am - 11:15am studying other fantasy sport apps, and add a few empty files.

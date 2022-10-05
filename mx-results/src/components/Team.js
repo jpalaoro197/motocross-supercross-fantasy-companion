@@ -54,6 +54,7 @@ Team.propTypes = {
   backUp2501 : PropTypes.string,
   backUp4502 : PropTypes.string,
   backUp2502: PropTypes.string,
+  overallPoints: PropTypes.number,
   id: PropTypes.string,
 }
 

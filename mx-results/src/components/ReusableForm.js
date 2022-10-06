@@ -6,8 +6,8 @@ import './select.css'
 function ReusableForm(props) {
   return (
     <React.Fragment>
+      
       <form onSubmit={props.formSubmissionHandler}>
-      <div class="content">
         <select> 
           <option selected value="Eli Tomac">Eli Tomac</option>
           <option value="Chase Sexton">Chase Sexton</option>
@@ -144,9 +144,9 @@ function ReusableForm(props) {
           name='mx4501'
         </select>
         <button type='submit'>{props.buttonText}</button>
-        </div>
       </form>
     </React.Fragment>
+  
   );
 }
 

@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 function TeamList(props){
 
-  const HelpQueueTeams = styled.ul`
+  const MotoTeams = styled.ul`
     background-color: #F8D86E;
     width: 1230px;
     margin: auto;
@@ -19,18 +19,27 @@ function TeamList(props){
     
     <React.Fragment>
     
-      <HelpQueueTeams>
-      {props.TeamList.map((Team) =>
+      <MotoTeams>
+      {props.teamList.map((team) =>
         <Team 
           whenTeamClicked={props.onTeamSelection}
-          ={Team.names}
-          location={Team.location}
-          formattedWaitTime={Team.formattedWaitTime}
-          issue={Team.issue}
-          id={Team.id}
-          key={Team.id}/>
+          teamName={team.teamName}
+          mx4501={team.mx4501}
+          mx4502={team.mx4502}
+          mx4503={team.mx4503}
+          mx2501={team.mx2501}
+          mx2502={team.mx2502}
+          mx2503={team.mx2503}
+          backUp4501={team.backUp4501}
+          backUp4502={team.backUp4502}
+          backUp2501={team.backUp2501}
+          backUp2502={team.backUp2502}
+          overallPoints={overallPoints}
+
+          id={team.id}
+          key={team.id}/>
       )}
-      </HelpQueueTeams>
+      </MotoTeams>
     </React.Fragment>
   );
 }

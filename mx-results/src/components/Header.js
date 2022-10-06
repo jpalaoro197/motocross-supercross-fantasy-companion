@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-const HelpQueueHeader = styled.div`
+const MotoHeader = styled.div`
   text-align: center;
   width: 1230px;
   color: #FFFBC8;
@@ -26,14 +26,14 @@ const Center = styled.div`
 function Header(){
   return (
     <React.Fragment>
-        <HelpQueueHeader>
+        <MotoHeader>
           <H1>
-          Help Queue
+          MX fantasy
           </H1>
           <Center>
             <Link to="/"> Home </Link> &emsp;|&emsp; <Link to="/sign-in"> Sign In </Link>
         </Center>
-        </HelpQueueHeader>
+        </MotoHeader>
        
     </React.Fragment>
   );

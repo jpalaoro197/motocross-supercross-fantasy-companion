@@ -5,7 +5,7 @@ import styled from 'styled-components';
 function TeamDetail(props){
   const { Team, onClickingDelete, onClickingEdit } = props; 
 
-  const HelpQueueTeams = styled.div`
+  const MotoTeams = styled.div`
     background-color: #f5b700;
     width: 300px;
     margin: auto;
@@ -19,7 +19,7 @@ function TeamDetail(props){
     font-size: 22px;
     color: #FFFBC8;
   `
-  const HelpQueueTeam = styled.div`
+  const MotoTeam = styled.div`
     background-color: #F8D86E;
     width: 1280px;
     margin: auto;
@@ -45,16 +45,16 @@ function TeamDetail(props){
 
   return (
     <React.Fragment>
-      <HelpQueueTeam>
-        <HelpQueueTeams>
+      <MotoTeam>
+        <MotoTeams>
         <h2>Team Detail</h2>
         <H3>{Team.location} - {Team.names}</H3>
         <p><em>{Team.issue}</em></p>
         <Button onClick={onClickingEdit}>Update Team</Button>
         <Button onClick={()=> onClickingDelete(Team.id)}>Close Team</Button>
         
-        </HelpQueueTeams>
-      </HelpQueueTeam>
+        </MotoTeams>
+      </MotoTeam>
     </React.Fragment>
   );
 }

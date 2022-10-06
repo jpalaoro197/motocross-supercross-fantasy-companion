@@ -67,4 +67,7 @@ Tuesday 8/30
 
 #### wednesday  
 * 8:45am - 9:30am start building team file in components.
-* 9:30am - 11:15am studying other fantasy sport apps, and add a few empty files.
+* 9:30am - 11:35am studying other fantasy sport apps, and add a few empty files.
+* 1:15pm - 5:30pm making huge push to build project off help queue to try to get mvp.
+* 11:00pm - 12:40pm last ditch effort to get project to at least have an apealing front end before its presented.
+

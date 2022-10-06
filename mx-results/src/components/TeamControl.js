@@ -38,7 +38,7 @@ function TeamControl() {
     color: #FFFBC8;
     padding: 25px;
     margin: auto;
-    background-color: #6495ED;
+    background-color: #eeeeee;
     border-radius: 10px;
   `;
 

@@ -26,7 +26,7 @@ function NewTeamForm(props){
     <React.Fragment>
       <ReusableForm 
         formSubmissionHandler={handleNewTeamFormSubmission}
-        buttonText='Help!' />
+        buttonText= 'Set lineup' />
     </React.Fragment>
   );
 }

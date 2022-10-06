@@ -69,5 +69,10 @@ Tuesday 8/30
 * 8:45am - 9:30am start building team file in components.
 * 9:30am - 11:35am studying other fantasy sport apps, and add a few empty files.
 * 1:15pm - 5:30pm making huge push to build project off help queue to try to get mvp.
-* 11:00pm - 12:40pm last ditch effort to get project to at least have an apealing front end before its presented.
+* 11:00pm - 12:40am last ditch effort to get project to at least have an apealing front end before its presented.
+
+#### thursday 10/06
+* 8:40am -10:25am try to adjust css again to make the form look good again, but took it off again.
+
+
 

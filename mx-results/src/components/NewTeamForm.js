@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import ReusableForm from './ReusableForm';
 // import { serverTimestamp } from "firebase/firestore";
 
-function NewTicketForm(props){
+function NewTeamForm(props){
 
-  function handleNewTicketFormSubmission(event) {
+  function handleNewTeamFormSubmission(event) {
     event.preventDefault();
-    props.onNewTicketCreation({
+    props.onNewTeamCreation({
       mx4501: event.target.mx4501.value, 
       mx4502: event.target.mx4502.value, 
       mx4503: event.target.mx4503.value, 
@@ -25,14 +25,14 @@ function NewTicketForm(props){
   return (
     <React.Fragment>
       <ReusableForm 
-        formSubmissionHandler={handleNewTicketFormSubmission}
+        formSubmissionHandler={handleNewTeamFormSubmission}
         buttonText='Help!' />
     </React.Fragment>
   );
 }
 
-NewTicketForm.propTypes = {
-  onNewTicketCreation: PropTypes.func
+NewTeamForm.propTypes = {
+  onNewTeamCreation: PropTypes.func
 };
 
-export default NewTicketForm;
+export default NewTeamForm;

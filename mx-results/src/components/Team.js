@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 function Team(props){
 
-  const HelpQueueTickets = styled.div`
+  const HelpQueueTeams = styled.div`
   background-color: #f5b700;
   width: 300px;
   margin: auto;

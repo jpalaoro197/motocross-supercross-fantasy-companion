@@ -1,3 +1,67 @@
+# Inventory Tracker
+
+#### By _**Jacob Palaoro**_  
+
+#### _a react application whith firebase database created for tracking pro motocross and have fantasy scoring profiles for users.WIP_  
+
+---
+
+## Table of Contents
+
+**[Technologies Used](#technologies-used)  
+[Description](#description)  
+[Setup/Installation Requirements](#setup-and-installation-requirements)  
+[Known Bugs](#known-bugs)  
+[License](#license)**
+
+---
+
+## Technologies Used
+
+* _Javascript_
+* _React_
+* _HTML_
+* _CSS_
+* _Node_
+* _Jest_
+* _firebase_
+* _axios_
+---
+## Description
+
+_This is my first self prompted application that is also my capstone project for epicodus. the application is set out to be able to track the ama pro motocross season, and keep track of riders results and give users fantasy points based off of finishing results._
+
+---
+## Setup and Installation Requirements
+
+<details>
+<summary><strong>Initial Setup</strong></summary>
+<ol>
+<li>Copy the git repository url
+<li>Open a shell program and navigate to your desktop.
+<li>Clone the repository for this project using the "git clone" command and including the copied URL.
+<li>While still in the shell program, navigate to the root directory of the newly created file named "Fantasy_mx_sx/mx-results".
+<li>From the root directory run npm install.
+<li>create a firebase database
+<li>create an env file with the following code, and your corresponding firebase database info. REACT_APP_FIREBASE_API_KEY =
+REACT_APP_FIREBASE_AUTH_DOMAIN =
+REACT_APP_FIREBASE_PROJECT_ID =
+REACT_APP_FIREBASE_STORAGE_BUCKET =
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID = 
+REACT_APP_FIREBASE_APP_ID = 
+<li>then finally run npm run start, and you will be up and running. 
+
+---
+## Known Bugs
+
+* _unfinsished project_
+
+## License
+
+_[MIT License](license)_
+
+Copyright (c) 10/8/2022 Jacob Palaoro
+
 ### Research and Planning Log
 ####
 Tuesday 8/30
